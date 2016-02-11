@@ -18,10 +18,10 @@ To get list of available timezones do
 
 ### set timezone on startup
 
-Add the environment variable TZ to the desired timezone, i.e to set timezone to 
+Add the environment variable TIMEZONE to the desired timezone, i.e to set timezone to 
 CET Stockhome
 
-	docker run -d -e TZ=Europa/Stockholm nimmis/alpine-micro
+	docker run -d -e TIMEZONE=Europa/Stockholm nimmis/alpine-micro
 
 ### set timezone in running container
 
