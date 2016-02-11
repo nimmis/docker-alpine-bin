@@ -11,9 +11,9 @@ export > /etc/envvars
 # check for timezone setting
 #
 
-if [ ! "$TZ" = "" ]; 
+if [ ! "$TIMEZONE" = "" ]; 
   then
-  /usr/local/bin/set_tz $TZ
+  /usr/local/bin/set_tz $TIMEZONE
 fi
 #
 # run script once
