@@ -1,4 +1,4 @@
-# binary commands for Alpine docker containeras
+# binary commands for Alpine docker containers
 
 This is the commands used inside nimmis/alpine based containers
 for extra functionality
